@@ -13,26 +13,34 @@ So, what we're going to do is use the information provided by the business team 
 These reports will help them make better decisions without relying too heavily on Excel.  
 Managing a massive amount of sales data, totaling over 500,000 records.  
 
-## Mock-Up
-Build Mock up’s for the following reports:
-1.	Customer Performance Report
-2.	Market VS Target Performance report
-3.	P&L by Fiscal Year
-4.	P&L by Fiscal Months
+## Mock-Up  
+Build Mock up’s for the following reports:  
+1.	#### Customer Performance Report ####    
+  	  <img src="CUSTOMER_PERFORMANCE_REP_MOCK_UP.png" width="500">
+  	
+2.	#### Market VS Target Performance report ####
+  	<img src="MARKET_vs_TARGET_PERFORMANCE_MOCK_UP.png" width="500">
+  	
+3.	#### P&L by Fiscal Year ####
+  	<img src="P&L_by_Fiscal_Year_MOCK_UP.png" width="500">
+  	
+4.	#### P&L by Fiscal Months ####  
+      <img src="P_&_l_BY_MONTH_MOCK_UP.png" width="500">
+        
 
-## Skills/Concepts Demonstrated  
-1.	The ETL process involves importing data from a CSV file into Excel and then using Power Query for various transformations. The transformed data is then loaded back into Excel, but this is done on different sheets.  
-2.	Data cleaning is a crucial step where we follow a checklist to ensure the data is appropriately cleaned for further analysis.Ensure there are no missing values.  
+## Skills/Concepts Demonstrated ##    
+1.	The _ETL_ process involves importing data from a CSV file into Excel and then using Power Query for various transformations. The transformed data is then loaded back into Excel, but this is done on different sheets.  
+2.	_Data Cleaning_ is a crucial step where we follow a checklist to ensure the data is appropriately cleaned for further analysis.Ensure there are no missing values.  
       - Ensure that all the dimension tables contain unique values.
       - Ensure there are no errors or #NA in columns.
       - Randomly check spellings.  
-3.	In data modeling, we have Fact and Dimension tables. The images below show the relationships and the data model in Power Pivot.
+3.	In _Data Modeling_, we have Fact and Dimension tables. The images below show the relationships and the data model in Power Pivot.
    
 Relationship                  |     Data-model
 :---------------------------: | :-------------------------:
 ![Alt text](RELATIONSHIP.png) |  ![Alt text](DATA_MODEL.png)  
 
-5.	When designing reports, it's important to focus on user readability. This can be achieved by improving the number format and using conditional formatting to enhance the speed of understanding.  
+5.	When _designing reports_, it's important to focus on user readability. This can be achieved by improving the number format and using conditional formatting to enhance the speed of understanding.  
    We can also improve the reports through text formatting and color formatting.  
 
 
@@ -99,8 +107,10 @@ Power pivot ->Manage->Diagram View->connect fact_sales_monthly table with dim_da
 
 
 ## Analysis:  
-### 1. Customer Performance Report ###  
+ ### 1. [Customer Performance Report](https://github.com/Rose1019/Atliq-Hardware-Report---Excel/blob/main/CUSTOMER_PERFORMANCE_REPORT.pdf) ###  
+    
 The provided data on customer-wise net sales for 2019, 2020, and 2021, along with the percentage change from 2020 to 2021.  
+
 #### Amazon Dominance ####  
 Amazon stands out as the customer with the highest net sales in 2021, reaching $82.1 million. This indicates that Amazon is a significant contributor to the company's overall revenue.  
 #### Top Performers in 2021: ####
@@ -117,7 +127,7 @@ It also highlights customers like Nova and Integration Stores that have experien
 Understanding the reasons behind these trends and tailoring strategies accordingly can be crucial for sustained success.  
 
 
-### 2. Market performance VS Target ###   
+### 2. [Market performance VS Target](https://github.com/Rose1019/Atliq-Hardware-Report---Excel/blob/main/MARKET_PERFORMANCE_VS_TARGETS_REPORT.pdf) ###   
 The provided data shows the net sales performance for various countries in 2019, 2020, and 2021, along with the difference between the 2021 actual net sales and the target net sales, expressed both in absolute terms and as a percentage.  
 
 #### Overall Performance: ####  
@@ -136,7 +146,7 @@ This highlights the importance of considering both absolute and percentage devia
 
 In conclusion, the analysis of country-wise net sales performance against targets reveals both absolute and percentage deviations,highlighting underperforming countries such as the USA, India, and Poland.This information can guide strategic decisions and adjustments to improve overall performance in the future.  
 
-### 3. P&L by Fiscal Years ###   
+### 3. [P&L by Fiscal Years](https://github.com/Rose1019/Atliq-Hardware-Report---Excel/blob/main/P_%26_L_BY_YEARLY_REPORT.pdf) ###   
 
 #### Net Sales Growth: ####  
 Net sales have shown significant growth over the three years, increasing from $87.5 million in 2019 to $598.9 million in 2021.  
