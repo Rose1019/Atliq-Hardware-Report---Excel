@@ -16,7 +16,7 @@ Managing a massive amount of sales data, totaling over 500,000 records.
 ## Mock-Up  
 Build Mock up’s for the following reports:  
 1.	#### Customer Performance Report ####    
-  	  <img src="CUSTOMER_PERFORMANCE_REP_MOCK_UP.png" width="500">
+  	  <img src="CUSTOMER_PERFORMANCE_REP_MOCK_UP.png" width="500" /> ![](CUSTOMER_PERFORMANCE_REP_MOCK_UP.png)
   	
 2.	#### Market VS Target Performance report ####
   	<img src="MARKET_vs_TARGET_PERFORMANCE_MOCK_UP.png" width="500">
